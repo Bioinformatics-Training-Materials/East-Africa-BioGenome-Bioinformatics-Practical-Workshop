@@ -8,7 +8,7 @@ interpret data is essential. This training is designed to give you a practical f
 
 All you need is a stable internet connection and the curiosity to dive into the command line, experiment with tools, and learn by doing. 
 
-Let’s get started!
+**Let’s get started! 🚀**
 
 
 
