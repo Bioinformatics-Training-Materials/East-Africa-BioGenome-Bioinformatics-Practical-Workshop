@@ -1,4 +1,4 @@
-<img width="1056" height="208" alt="image" src="https://github.com/user-attachments/assets/da116e3d-d229-4a13-8042-6b37a52ab50c" />
+<img width="897" height="163" alt="image" src="https://github.com/user-attachments/assets/7aa838d2-e574-46d5-b1f8-5d3f28f72d2a" />
 
 
 # East-Africa-BioGenome-Bioinformatics-Practical-Workshop
