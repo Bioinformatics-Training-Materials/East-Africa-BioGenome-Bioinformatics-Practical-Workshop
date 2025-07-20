@@ -10,6 +10,10 @@ All you need is a stable internet connection and the curiosity to dive into the 
 
 **Let’s get started! 🚀**
 
+## Linux
+
+L
+
 
 
 
