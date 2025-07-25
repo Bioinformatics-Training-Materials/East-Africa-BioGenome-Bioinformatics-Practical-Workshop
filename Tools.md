@@ -1,31 +1,22 @@
-# Installtion Guidelines
+# Installation Guidelines
 
-Access your Google colab terminal as explained here:[Google colab terminal](https://youtu.be/pvUU3eVPU5U)
+The workshop requires:
+1. Terminal
+2. Conda
+3. Bioinformatics
+5. Data
+6. Yourself
 
-### Download Miniconda
-```
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-```
-### Install silently
-```
-bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
-```
-### Initialize Conda for current shell
-```
-$HOME/miniconda3/bin/conda init
-```
-### Activate changes
-```
-source ~/.bashrc
-```
-If the installation is successful, you should see a list of installed packages with
-   ```
-   conda list
-   ```
-If the command cannot be found, you can add Anaconda bin to the path using:
-```
-export PATH=~/miniconda3/bin:$PATH
-```
+## 1. Terminal
+
+Access your Google colab terminal [here](https://colab.research.google.com/) for details on how to use it is explained here:[Google colab terminal](https://youtu.be/pvUU3eVPU5U)
+
+## 2. Conda and Bioinformatics Tools Installation
+
+The command below runs a script which clones this repository, downloads conda, creates the required environments and installs the required tools. Copy the command and paste it on the terminal you opened above. Relax and watch the magic happen !!! 😂
+
+
+
 ## Installing tools required for the workshop
 
 Create a separate environment for each tool, activate the environment, and install the tool. These three steps can be combined into a single line of code as shown below.
