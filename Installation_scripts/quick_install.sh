@@ -21,6 +21,8 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 # Initialize Conda
 #eval "$(/root/miniconda3/bin/conda shell.bash hook)"
 
+source ~/.bashrc
+
 source /root/miniconda3/bin/activate 
  
 # This script sets up a conda environment for all the tools needed for the project.
