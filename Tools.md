@@ -11,6 +11,8 @@ The workshop requires:
 
 Access your Google colab terminal [here](https://colab.research.google.com/) for details on how to use it is explained here:[Google colab terminal](https://youtu.be/pvUU3eVPU5U)
 
+Create a notebook and name it `Bioigenome_workshop` this will ensure you don't loose you data when you close your session.
+
 ## 2. Conda and Bioinformatics Tools Installation
 
 Clone this repository by copying and pasting the command on the terminal you accessed above.
