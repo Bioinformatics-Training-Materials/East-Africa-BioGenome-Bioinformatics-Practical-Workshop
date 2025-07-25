@@ -1,30 +1,5 @@
 #!/bin/bash
-set -e
-# The script installs conda and all the tools automatically
 
-# Download Miniconda
-wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-
-# Install silently
-bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
-
-# Initialize Conda for current shell
-$HOME/miniconda3/bin/conda init
-
-# Activate changes
-source ~/.bashrc
-
-# Accept ToS for required Anaconda channels
-conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
-conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
-
-# Initialize Conda
-#eval "$(/root/miniconda3/bin/conda shell.bash hook)"
-
-source ~/.bashrc
-
-source /root/miniconda3/bin/activate 
- 
 # This script sets up a conda environment for all the tools needed for the project.
 # It assumes that conda is already installed and available in the PATH. 
 
