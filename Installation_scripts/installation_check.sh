@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo checking all tools installed successfully!!!
+
 # Tool -> Command mapping
 declare -A tools_cmds=(
   [fastqc]="fastqc"
@@ -9,6 +11,7 @@ declare -A tools_cmds=(
   [jellyfish]="jellyfish"
   [spades]="spades.py"
   [velvet]="velveth"
+  [bwa]="bwa"
   [seqkit]="seqkit"
   [samtools]="samtools"
   [pilon]="pilon"
