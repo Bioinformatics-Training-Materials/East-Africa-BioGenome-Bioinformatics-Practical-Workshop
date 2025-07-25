@@ -24,7 +24,7 @@ conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 # This script sets up a conda environment for all the tools needed for the project.
 # It assumes that conda is already installed and available in the PATH. 
 
-tools=(fastqc multiqc trim-galore kmergenie jellyfish spades velvet seqkit samtools pilon quast busco)
+tools=(fastqc multiqc trim-galore kmergenie jellyfish spades velvet seqkit bwa samtools pilon quast busco)
 
 for tool in ${tools[@]}; do
 
