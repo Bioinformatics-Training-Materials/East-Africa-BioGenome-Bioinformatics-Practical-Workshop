@@ -13,15 +13,27 @@ Access your Google colab terminal [here](https://colab.research.google.com/) for
 
 ## 2. Conda and Bioinformatics Tools Installation
 
-The command below runs a script which clones this repository, downloads conda, creates the required environments and installs the required tools. Copy the command and paste it on the terminal you opened above. Relax and watch the magic happen !!! 😂
-`
-```
+Clone this repository by copying and pasting the command on the terminal you accessed above.
 
 ```
+git clone https://github.com/Bioinformatics-Training-Materials/East-Africa-BioGenome-Bioinformatics-Practical-Workshop.git
+```
+Change directory to the repo cloned above
 
-*
+```
+cd East-Africa-BioGenome-Bioinformatics-Practical-Workshop
+```
+The command below executes a script which downloads conda, creates the required environments and installs the required tools. Copy and paste the command, relax and watch the magic happen !!! 😂
 
+```
+bash scripts/quick_install.sh
+```
 
+## NOTE
+
+Any tool marked with x has not been installed and you may need to bring it up during the live sessions.
+
+# ENJOY YOUR TRAINING
 
 
 
