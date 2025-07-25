@@ -15,7 +15,7 @@ We shall be using the terminal on google-colab for uniformity. To set it up go t
 
 # Install Analysis tools
 
-There are several tools needed to complete the workshop. I have automated the installation of all these tools inorder to save on time as well as avoid system based incompatibilities. Follow this [tutorial](Toolsl.md) to install the tools and  
+There are several tools needed to complete the workshop. I have automated the installation of all these tools inorder to save on time as well as avoid system based incompatibilities. Follow this [tutorial](Tools.md) to install the tools and  
 
 
 
