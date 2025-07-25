@@ -26,7 +26,7 @@ cd East-Africa-BioGenome-Bioinformatics-Practical-Workshop
 The command below executes a script which downloads conda, creates the required environments and installs the required tools. Copy and paste the command, relax and watch the magic happen !!! 😂
 
 ```
-bash scripts/quick_install.sh
+bash Installation_scripts/quick_install.sh
 ```
 
 ## NOTE
