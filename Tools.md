@@ -2,19 +2,19 @@
 
 Access your Google colab terminal as explained here:[Google colab terminal](https://youtu.be/pvUU3eVPU5U)
 
-## Download Miniconda
+### Download Miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-## Install silently
+### Install silently
 ```
 bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
 ```
-## Initialize Conda for current shell
+### Initialize Conda for current shell
 ```
 $HOME/miniconda3/bin/conda init
 ```
-## Activate changes
+### Activate changes
 ```
 source ~/.bashrc
 ```
