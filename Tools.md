@@ -25,12 +25,29 @@ Change directory to the repo cloned above
 ```
 cd East-Africa-BioGenome-Bioinformatics-Practical-Workshop
 ```
-The command below executes a script which downloads conda, creates the required environments and installs the required tools. Copy and paste the command, relax and watch the magic happen !!! 😂
+## 3. Install conda
+
+Download Miniconda using the command below:
 
 ```
-bash Installation_scripts/quick_install.sh
+bash Installation_scripts/conda_installation.sh
 ```
 
+Close the terminal using the `ctrl+D` keyboard shortcut and reopen it again. You should see `(base)` at the beginning of your terminal, which was not there initially.
+
+## 4. Install required tools
+
+The command below runs a script that creates the required environments and installs the required tools. Copy and paste the command, relax and watch the magic happen !!! 😂
+
+```
+bash Installation_scripts/Tools_install.sh
+```
+## 5. Validating Installations
+
+Run the script to ensure that all the tools are installed.
+```
+bash Installation_scripts/installation_check.sh
+```
 ## NOTE
 
 Any tool marked with an x has not been installed and you may need to bring it up during the live sessions.
