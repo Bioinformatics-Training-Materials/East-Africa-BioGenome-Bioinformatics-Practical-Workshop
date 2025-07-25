@@ -1,5 +1,5 @@
 #!/bin/bash
-set -
+set -e
 # The script installs conda and all the tools automatically
 
 # Download Miniconda
