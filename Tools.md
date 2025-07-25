@@ -31,7 +31,9 @@ bash Installation_scripts/quick_install.sh
 
 ## NOTE
 
-Any tool marked with x has not been installed and you may need to bring it up during the live sessions.
+Any tool marked with an x has not been installed and you may need to bring it up during the live sessions.
+
+<img width="275" height="191" alt="image" src="https://github.com/user-attachments/assets/6a9a6f5f-34d7-4f54-b567-384181112eac" />
 
 # ENJOY YOUR TRAINING
 
