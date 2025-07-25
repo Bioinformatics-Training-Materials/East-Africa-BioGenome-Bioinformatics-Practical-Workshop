@@ -53,6 +53,7 @@ declare -A tools_cmds=(
   [jellyfish]="jellyfish"
   [spades]="spades.py"
   [velvet]="velveth"
+  [bwa]="bwa-mem"
   [seqkit]="seqkit"
   [samtools]="samtools"
   [pilon]="pilon"
