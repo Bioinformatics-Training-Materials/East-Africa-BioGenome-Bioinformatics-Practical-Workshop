@@ -15,23 +15,32 @@ Create a notebook and name it `Biogenome_workshop` this will ensure you don't lo
 
 ## 2. Conda and Bioinformatics Tools Installation
 
-Clone this repository by copying and pasting the command on the terminal you accessed above.
+Download the miniconda installer using the command below.
+Copy and paste the command below on the terminal you started above
 
 ```
-git clone https://github.com/Bioinformatics-Training-Materials/East-Africa-BioGenome-Bioinformatics-Practical-Workshop.git
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 ```
-Change directory to the repo cloned above
+Install miniconda silently using the command below.
+```
+bash Miniconda3-latest-Linux-x86_64.sh -b -p $HOME/miniconda3
+```
+Initialize Conda for current shell
 
 ```
-cd East-Africa-BioGenome-Bioinformatics-Practical-Workshop
+$HOME/miniconda3/bin/conda init
 ```
-## 3. Install conda
-
-Download Miniconda using the command below:
+Activate changes
 
 ```
-bash Installation_scripts/conda_installation.sh
+source ~/.bashrc
 ```
+**Accept ToS for required Anaconda channels**
+```
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
+conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
+```
+
 
 Close the terminal using the `ctrl+D` keyboard shortcut and reopen it again. You should see `(base)` at the beginning of your terminal, which was not there initially.
 
