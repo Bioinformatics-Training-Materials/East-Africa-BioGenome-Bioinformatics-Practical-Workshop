@@ -40,9 +40,18 @@ source ~/.bashrc
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/main
 conda tos accept --override-channels --channel https://repo.anaconda.com/pkgs/r
 ```
+## 3. Clone GitHub repository
 
+Copy and paste the command below on the terminal you started above
 
-Close the terminal using the `ctrl+D` keyboard shortcut and reopen it again. You should see `(base)` at the beginning of your terminal, which was not there initially.
+```
+git clone https://github.com/Bioinformatics-Training-Materials/East-Africa-BioGenome-Bioinformatics-Practical-Workshop.git
+```
+Change directory to the repo cloned above
+
+```
+cd East-Africa-BioGenome-Bioinformatics-Practical-Workshop
+```
 
 ## 4. Install required tools
 
