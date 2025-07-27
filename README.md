@@ -8,6 +8,9 @@ Bioinformatics is at the heart of modern biology, unlocking insights from biolog
 All you need is a stable internet connection and the curiosity to dive into the command line, experiment with tools, and learn by doing. 
 
 **Let’s get started! 🚀**
+### The Programme for the 3 days can be accessed here:
+
+[East-Africa-BioGenome-Bioinformatics-Practical-Workshop programme](Programme.pdf)
 
 ### Install/Set-up Linux terminal
 
